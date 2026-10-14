@@ -7,7 +7,8 @@
 
 ## Установка
     pip install mysql-connector-python pillow
-
+                    или
+    py -m pip install mysql-connector-python pillow
 1. Выполните init_db.sql в MySQL.
 2. Настройте DB_CONFIG в config.py (пароль root).
 3. Запустите: python main.py
